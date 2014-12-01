@@ -1,0 +1,28 @@
+﻿@model CountToNextBirthday.Models.NextBirthday
+@{
+    ViewBag.Title = "Dagar kvar tills du fyller år";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dagar kvar till födelsedag</title>
+
+
+</head>
+<body>
+    <h1>Resultat</h1>
+
+    <p>
+        Du kommer att fylla @Model.Age år på en @Model.NextBirthdayDate.ToString("dddd") om @Model.DaysUntilNextBirthday dagar.
+    </p>
+
+    <p>
+        @Html.ActionLink("Tillbaka", "Index")
+    </p>
+
+</body>
+</html>
+

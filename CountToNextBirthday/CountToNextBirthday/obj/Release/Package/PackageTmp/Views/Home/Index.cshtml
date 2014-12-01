@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    
+
+</head>
+<body>
+    <h1>Dagar kvar till din nästa födelsdag</h1>
+
+    <form action="/home/index" method="post">
+        <div>
+            <label for="birthday">Födelsedag (åååå-mm-dd)</label>
+        </div>
+
+        <div>
+            <input name="birthday" type="text"/>
+        </div>
+
+        <div>
+            <input type="submit" value="Skicka"/>
+        </div>
+    </form>
+    
+</body>
+</html>

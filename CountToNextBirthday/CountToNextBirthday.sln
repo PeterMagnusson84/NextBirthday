@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountToNextBirthday", "CountToNextBirthday\CountToNextBirthday.csproj", "{07D533FB-4090-4E01-BE56-7668C5E80DAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{1456D60B-B00A-4D45-A93A-F50FDE331C50}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{38455AE2-2E45-48F7-8ACC-BDCB1BAEE0F0}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\CountToNextBirthday-WAWS-dev.json = PublishScripts\Configurations\CountToNextBirthday-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D533FB-4090-4E01-BE56-7668C5E80DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D533FB-4090-4E01-BE56-7668C5E80DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D533FB-4090-4E01-BE56-7668C5E80DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D533FB-4090-4E01-BE56-7668C5E80DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38455AE2-2E45-48F7-8ACC-BDCB1BAEE0F0} = {1456D60B-B00A-4D45-A93A-F50FDE331C50}
+	EndGlobalSection
+EndGlobal
