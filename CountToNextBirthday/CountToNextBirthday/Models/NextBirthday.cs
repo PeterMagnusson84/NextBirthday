@@ -9,7 +9,7 @@ namespace CountToNextBirthday.Models
 {
     public class NextBirthday
     {
-        [DisplayName("Födelsedag (åååå-mm-dd)")]
+        [DisplayName("När är du född? (åååå-mm-dd)")]
         [Required]
         public DateTime Birthdate { get; set; }
 
